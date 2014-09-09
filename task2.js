@@ -1,5 +1,2 @@
-process.argv.forEach(function (val, index, array) {
-   if(index==2){
-		console.log(val*2);
-   }
-});
+var s=process.argv[2];
+console.log(s*2);
